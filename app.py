@@ -5,17 +5,17 @@ import time
 import os
    
 # Load the trained model
-model = joblib.load('C:/Users/souha/Downloads/model/model.pkl')
+model = joblib.load('model.pkl')
 
 # Define the selected features
 FEATURES = ['amt', 'merchant_freq', 'state_freq', 'amt_merchant_freq', 'amt_state_freq', 'category']
 
 # Real-time dataset file
-DATASET_PATH = 'C:/Users/souha/Downloads/fraudTest.csv'
+DATASET_PATH = 'fraudTest.csv'
 
 
 # Output file for detected fraud
-FRAUD_LOG_FILE = 'C:/Users/souha/Downloads/model/detected_frauds.csv'
+FRAUD_LOG_FILE = 'detected_frauds.csv'
 
 # Initialize a set to track processed transactions
 processed_transactions = set()
