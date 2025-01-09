@@ -2,6 +2,6 @@
 
 dataset link: https://www.kaggle.com/datasets/kartik2112/fraud-detection
 
-Il faut créer un fichier pour le sauvegarde des logs dans le meme repertoire du script(detected_frauds.csv)
+Un fichier pour la sauvegarde des logs (detected_frauds.csv) doit être créé dans le même répertoire que le script.
 
-Il est preferable d'ajouter l'adresse totale des fichiers dans "app.py" 
+Il est recommandé d'ajouter le chemin complet des fichiers dans le fichier "app.py".
